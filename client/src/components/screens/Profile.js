@@ -32,9 +32,9 @@ const Profile = ()=>{
             setLoading(true);
             const data = new FormData()
             data.append("file",profilepic)
-            data.append("upload_preset","insta-clone")
-            data.append("cloud_name","instaclonewebapp")
-            fetch('https://api.cloudinary.com/v1_1/instaclonewebapp/image/upload',{
+            data.append("upload_preset","msr_insta")
+            data.append("cloud_name","drej9spke")
+            fetch('https://api.cloudinary.com/v1_1/drej9spke/image/upload',{
                 method:"POST",
                 body:data
             })

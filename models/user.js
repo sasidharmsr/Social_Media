@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     },
     profilepic:{
         type:String,
-        default:"https://res.cloudinary.com/instaclonewebapp/image/upload/v1642244581/44884218_345707102882519_2446069589734326272_n_zf1loq.jpg"
+        default:"https://res.cloudinary.com/drej9spke/image/upload/v1642244581/44884218_345707102882519_2446069589734326272_n_zf1loq.jpg"
     },
     followers:[{type:ObjectId,ref:"User"}],
     following:[{type:ObjectId,ref:"User"}]

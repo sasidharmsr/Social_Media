@@ -140,7 +140,7 @@ const mailer = async (email,otp)=>{
         },
     })
     let mailOptions = {
-        from:'INSTACLONE <instaclonewebapp3@gmail.com>',
+        from:'instaclonewebapp3@gmail.com',
         to:email,
         subject:'OTP for resetting password',
         text:`your OTP for changing password is ${otp}`
